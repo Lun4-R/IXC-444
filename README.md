@@ -1,2 +1,4 @@
-# IXC-444
-The Modding Tree game experience 
+## IXC-444
+
+# Information
+Built using The Modding Tree engine with my customized edits and snippets. Code contribution would be great!
