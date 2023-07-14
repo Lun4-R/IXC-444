@@ -1,0 +1,10 @@
+{
+    "name": "The Stellar Tree [ Mobile Dev ]",
+    "short_name": "TST MD",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#2b9a79",
+    "theme_color": "#e5f0ed",
+    "description": "A Tree game...",
+    "orientation": "portrait",
+    }
