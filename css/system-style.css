@@ -25,22 +25,27 @@ td {
 	padding: 0
 }
 
-.header {
-width: fit-content ;
-text-align: center;
-overflow: hidden;
-background: linear-gradient(90deg, rgba(3,255,166,1) 0%, rgba(255,0,99,1) 100%);
-padding: 3px;
-border-radius: 20px;
-margin: 10px;
-}
 
-.header a {
-  float: center;
-  color: #ffffff;
-  text-shadow: 0px 0px 8px #000000;
-  margin: 5px;
-}
+  #newsTicker {
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    border: 3px solid white;
+    border-radius: 10px;
+
+    padding: 5px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    color: #ffffff;
+  }
+
+  #newsContent {
+    transition-duration: 0s !important;
+    color: #ffffff;
+  }
+  
 .upgTable {
 	display: flex !important;
 	flex-flow: column wrap;

@@ -10,6 +10,43 @@
   background-image: url('../image-folder/Stellar.png')
 }
 
+.b.treeNode {
+  border-radius: 15px;
+  border: 0px;
+  font-family: CRDILight;
+  background-image: url('../image-folder/Stellar.png')
+}
+
+.b.reset:can {
+  background: linear-gradient(0deg, rgba(66,135,245,1) 0%, rgba(0,255,255,1) 100%);
+  border-radius: 5px;
+  border: 0px;
+}
+
+.b.locked {
+  border-radius: 5px;
+  border: 0px;
+  margin: 5px;
+}
+
+.b.bought {
+  border-radius: 5px;
+  border: 0px;
+  margin: 5px;
+}
+
+.b.can {
+  background: linear-gradient(0deg, rgba(66,135,245,1) 0%, rgba(0,255,255,1) 100%);
+  border-radius: 5px;
+  border: 0px;
+  margin: 5px;
+}
+
+.b.reset {
+  border-radius: 5px;
+  border: 0px;
+}
+
 .XLM.can {
   animation: CiperText .8s linear forwards;
 }

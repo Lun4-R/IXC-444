@@ -34,6 +34,7 @@
 	<script src="js/technical/particleSystem.js"></script>
 	<script src="js/utils/NumberFormating.js"></script>
 	<script src="js/utils/functions.js"></script>
+	<script src="js/utils/functions.js"></script>
 	<script src="js/utils/options.js"></script>
 	<script src="js/utils/save.js"></script>
 	<script src="js/utils/themes.js"></script>
@@ -74,11 +75,12 @@
 			col: (player.tab !== 'none' && player.navTab !== 'none'), 
 			left: (player.tab !== 'none' && player.navTab !== 'none')}"
 			 :style="{'margin-top': !readData(layoutInfo.showTree) && player.tab == 'info-tab' ? '50px' : ''}">
+		  <div id="newsTicker">
+		  <div id="newsContent" style="display: inline-block; position: relative;"></div>
+		  </div>
 			<div id="version" onclick="showTab('changelog-tab')" class="overlayThing" style="margin-right: 13px" >
-				Changelog</div>
-				<div class="header">
-				  	<a href="#default" class="title" style="position: center center">The Stellar Tree {{VERSION.withoutName}}</a>
 				</div>
+				
 				
 			<button
 			v-if="((player.navTab == 'none' && (tmp[player.tab].row == 'side' || tmp[player.tab].row == 'otherside' || player[player.tab].prevTab)) || player[player.navTab]?.prevTab)"				class="other-back overlayThing" onclick="goBack(player.navTab == 'none' ? player.tab : player.navTab)">←</button>

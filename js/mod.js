@@ -2,8 +2,10 @@ let modInfo = {
 	name: "The IXC444 Tree",
 	id: "CTAGC1",
 	author: "Niko_ | ( Citrine )",
-	pointsName: "points",
-	modFiles: ["main.js", 
+	pointsName: "???",
+	modFiles: [
+	"main.js",
+	"booster.js",
 	"tree.js"],
 
 	discordName: "",
@@ -14,8 +16,8 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
-	name: "Literally nothing",
+	num: "v2",
+	name: "Boosters",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
