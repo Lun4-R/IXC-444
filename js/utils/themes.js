@@ -1,5 +1,5 @@
 // ************ Themes ************
-var themes = ["default", "aqua"]
+var themes = ["default", "Aqua"]
 
 var colors = {
 	default: {
@@ -12,7 +12,7 @@ var colors = {
 		background: "#0f0f0f",
 		background_tooltip: "rgba(0, 0, 0, 0.75)",
 	},
-	aqua: {
+	Aqua: {
 		1: "#bfdfff",
 		2: "#8fa7bf",
 		3: "#5f6f7f",

@@ -3,13 +3,35 @@
   border: 0px;
 }
 
+.main.rawText {
+  margin: 2px;
+}
+
 .main.treeNode {
-  border-radius: 15px;
+  border-radius: 5px;
   border: 0px;
   font-family: CRDILight;
   background-image: url('../image-folder/Stellar.png')
 }
 
+.c.rawText {
+  margin: 2px;
+}
+
+.c.treeNode {
+  border-radius: 5px;
+  border: 0px;
+  font-family: CRDILight;
+  background-image: url('../image-folder/Stellar.png')
+}
+
+.cBreak {
+  line-height: 10px; /* what */
+}
+
+.RankStar {
+  position: 0.5 , 0.5;
+}
 .b.treeNode {
   border-radius: 15px;
   border: 0px;
@@ -43,6 +65,36 @@
 }
 
 .b.reset {
+  border-radius: 5px;
+  border: 0px;
+}
+
+.c.reset:can {
+  background: linear-gradient(0deg, rgba(205,205,205,1) 0%, rgba(77,77,77,1) 100%);
+  border-radius: 5px;
+  border: 0px;
+}
+
+.c.locked {
+  border-radius: 5px;
+  border: 0px;
+  margin: 5px;
+}
+
+.c.bought {
+  border-radius: 5px;
+  border: 0px;
+  margin: 5px;
+}
+
+.c.can {
+  background: linear-gradient(0deg, rgba(205,205,205,1) 0%, rgba(77,77,77,1) 100%);
+  border-radius: 5px;
+  border: 0px;
+  margin: 5px;
+}
+
+.c.reset {
   border-radius: 5px;
   border: 0px;
 }
